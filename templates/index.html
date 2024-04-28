@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CineSage</title>
+    <link rel="icon" type="image/x-icon" href="/static/website_icon_downscaled.png">
+    <link rel="stylesheet" href="\static\styles.css">
+</head>
+<body>
+    <img src="\static\banner.png" alt="CineSage logo" class="responsive" width="100%">
+    <form id="genreForm">
+        <label for="genre">What are you feeling like watching today?</label>
+        <input type="text" name="genre" id="genre" required>
+        <button type="submit">Get Recommendations</button>
+    </form>
+    <div id="recommendation"></div>
+    <script src="\static\script.js"></script>
+</body>
+<footer>
+    <div class="bottom-bar">
+        <div class="container">
+            <p>&copy; 2024 CineSage. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+</html>
